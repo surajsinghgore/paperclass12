@@ -19,6 +19,9 @@ function App() {
            <Route exact path="/info" component={Info} />
            <Route exact path="/eng" component={English} />
            <Route exact path="/hindi" component={Hindi} />
+           <Route exact path="/paperclass12" component={Home}/>
+           <Route exact path="/paperclass12/" component={Home}/>
+           <Route exact path="/paperclass12/" component={Home}/>
            <Route exact path="/web" component={Web}/>
            <Route exact component={Error} />
         </Switch>
