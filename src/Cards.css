@@ -1,0 +1,180 @@
+.main{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 403px;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+padding-top: 40px;
+flex-basis: content;
+flex-shrink: unset;
+justify-content: space-around;
+}
+
+.main .child1{
+position: relative;
+width: 22%;
+box-shadow: -5px 5px 10px 2px rgb(58, 58, 58);
+
+cursor: pointer;
+overflow: hidden;
+height: 230px;
+background-color: palevioletred;
+}
+
+.main .child1 p{
+    position: absolute;
+    top: 82%;
+    left: 0;
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+.main .child2 p{
+    position: absolute;
+    top: 82%;
+    left: 0;
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+.main .child3 p{
+    position: absolute;
+    top: 82%;
+    left: 0;
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+.main .child4 p{
+    position: absolute;
+    top: 82%;
+    left: 0;
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+.main .child2{
+   position: relative;
+   width: 22%;
+   box-shadow: -5px 5px 10px 2px rgb(58, 58, 58);
+   height: 230px;
+   overflow: hidden;
+   cursor: pointer;
+   background-color: palevioletred; 
+}
+.main .child3{
+    position: relative;
+    width: 22%;
+ box-shadow: -5px 5px 10px 2px rgb(58, 58, 58);
+    height: 230px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: palevioletred;
+}
+.main .child4{
+   position: relative;
+   width: 22%;
+   overflow: hidden;
+box-shadow: -5px 5px 10px 2px rgb(58, 58, 58);
+   height: 230px;
+   cursor: pointer;
+   background-color: palevioletred; 
+}
+.main img{
+    width: 100%;
+
+       height: 230px;
+}
+
+
+
+
+
+@media only screen and (max-width: 720px) {
+    .main{
+        position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+
+padding-bottom: 20px;
+justify-content:space-around;
+}
+
+.main .child1{
+    margin-left: 9%;
+    position: relative;
+    width: 85%;
+    box-shadow: -5px 5px 10px 2px rgb(58, 58, 58);
+    height: 230px;
+    overflow: hidden;
+align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: palevioletred; 
+ }
+.main .child2{
+    position: relative;
+    width: 85%;
+    margin-left: 9%;
+    box-shadow: -5px 5px 10px 2px rgb(58, 58, 58);
+    height: 230px;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: palevioletred; 
+ }
+ .main .child3{
+     position: relative;
+     width: 85%;
+     margin-bottom: 20px;
+  box-shadow: -5px 5px 10px 2px rgb(58, 58, 58);
+     height: 230px;
+     margin-left: 9%;
+     overflow: hidden;
+     align-items: center;
+     cursor: pointer;
+     background-color: palevioletred;
+ }
+ .main .child4{
+    position: relative;
+    width: 85%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    align-items: center;
+    margin-left: 9%;
+ box-shadow: -5px 5px 10px 2px rgb(58, 58, 58);
+    height: 230px;
+    cursor: pointer;
+    background-color: palevioletred; 
+ }
+}
